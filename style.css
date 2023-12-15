@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0px;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+}
+
+.cabecalho > a > img {
+    width: 20%;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 60px;
+    /* flex wrap funcionando incorretamente ???? */
+}
+
+.menu{
+    display: flex;
+}
+
+.menu > li > a {
+    padding: 10px;
+    background-color: rgb(64, 64, 249);
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+
+.menu > li {
+    margin-left: 10px;
+}
+
+h1{
+    text-align: center;
+    margin: 10px;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+.produtos{
+    margin: 0 auto;
+}
+
+.todos-produtos{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+}
+
+.div-produtos{
+    width: 30%;
+    max-width: 30%;
+    margin: 5%;
+    align-items: center;
+}
+
+h2{
+    font-size: 30px;
+    margin: 20px;
+    text-align: center;
+}
+
+.textos {
+    background-color: rgba(0, 0, 255, 0.32); 
+    text-align: justify;
+    padding: 30px;
+    border-radius: 20px;
+    margin: 20px;
+}
+
+.rodape{
+    background-color: rgba(0, 0, 255, 0.32);
+    display: flex;
+    justify-content: space-between;
+    padding: 60px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.rodape > a {
+    text-decoration: none;
+    color: white;
+    margin-right: 10px;
+}
+
+.rodape > a:hover {
+    color: rgba(0, 0, 255, 0.32);
+    transition: 0.8ms;
+    
+}
+
+.redessociais > li > i{
+    background-color: aqua;
+    padding: 10;
+
+}
